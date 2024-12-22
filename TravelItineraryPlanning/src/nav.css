@@ -1,0 +1,52 @@
+/* Navbar Container */
+#navCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1a1a; /* Black background */
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Logo Section */
+#navCont .logo img {
+  height: 80px;
+  width: 80px; 
+  cursor: pointer;
+}
+
+/* Center Links Section */
+#navCont .center {
+  display: flex;
+  gap: 20px;
+}
+
+#navCont .center a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#navCont .center a:hover {
+  color: #f0ad4e; /* Hover effect for links */
+}
+
+/* Right Section */
+#navCont .right .signup-button {
+  border: 1px solid white;
+  padding: 8px 20px;
+  color: white;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#navCont .right .signup-button:hover {
+  background-color: white;
+  color: black;
+}
